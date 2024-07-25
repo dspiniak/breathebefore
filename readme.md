@@ -8,7 +8,7 @@ Steps:
 1. Open iOS Shortcuts app.
 You'll need to create a new automation for each social media app that you want to use BreatheBefore with. Below, we'll show an example for Instagram, the same applies to Facebook, X, and TikTok:
 2. Create an "automation" that runs every time you open [Instagram] and has the following custom actions:
-- If clipboard is not ["instagram"] (not the all small caps here): open BreatheBefore app and then copy to Clipboard the Current Date
-- Otherwise, open Instagram.
+- If clipboard is not ["instagram"] (note the all small caps here): open BreatheBefore app and then copy to Clipboard the Current Date
+- Otherwise, open [Instagram].
 
 BreatheBefore was built using react native and expo. It relies on the native iOS Clipboard and iOS Shortcuts app (in the future, it could have a plug-and-play native third-party iOS Shortcut app).
